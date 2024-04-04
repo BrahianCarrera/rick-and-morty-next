@@ -1,0 +1,20 @@
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 5 rem; 
+}
+
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.img{
+    border-width: 10px;
+    border-color: blueviolet;
+    border-radius: 2%;
+    width: 100%;
+    height: fit-content;
+    
+}
