@@ -9,7 +9,9 @@ async function Card() {
           {data.map((character) =>(
             <div key={character.id} className="card">
               <h2>{character.name}</h2>
+              <div className="container-image" >
               <img src={character.image} className="img"></img>
+              </div>
               <p>{character.type}</p>
             </div>
           ))}
